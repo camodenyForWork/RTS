@@ -1,0 +1,170 @@
+
+2022-02-22|22:32:43 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:36:29 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:36:36 - Successful: STARTING PDF CREATION
+2022-02-22|22:36:36 - Successful: Successfully Connected to SQLite
+2022-02-22|22:36:36 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:36:36 - Successful: The SQLite connection is closed
+2022-02-22|22:36:37 - Successful: Server Shutting Down
+2022-02-22|22:36:37 - Successful: Current state saved - See ya
+2022-02-22|22:36:38 - Successful: STARTING PDF CREATION
+2022-02-22|22:36:38 - Successful: Successfully Connected to SQLite
+2022-02-22|22:36:38 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:36:38 - Successful: The SQLite connection is closed
+2022-02-22|22:38:20 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:38:27 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:27 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:27 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:27 - Successful: The SQLite connection is closed
+2022-02-22|22:38:28 - Successful: Auto Ticket email was disabled
+2022-02-22|22:38:29 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:29 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:29 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:29 - Successful: The SQLite connection is closed
+2022-02-22|22:38:35 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:35 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:35 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:35 - Successful: The SQLite connection is closed
+2022-02-22|22:38:37 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:37 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:37 - Error: Failed to insert data into SQlite table near "m": syntax error
+2022-02-22|22:38:37 - Successful: The SQLite connection is closed
+2022-02-22|22:38:43 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:43 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:43 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:43 - Successful: The SQLite connection is closed
+2022-02-22|22:38:45 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:45 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:45 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:45 - Successful: The SQLite connection is closed
+2022-02-22|22:38:52 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:52 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:52 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:52 - Successful: The SQLite connection is closed
+2022-02-22|22:38:52 - Successful: Auto printing was disabled
+2022-02-22|22:38:53 - Successful: STARTING PDF CREATION
+2022-02-22|22:38:53 - Successful: Successfully Connected to SQLite
+2022-02-22|22:38:53 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:38:53 - Successful: The SQLite connection is closed
+2022-02-22|22:39:00 - Successful: STARTING PDF CREATION
+2022-02-22|22:39:00 - Successful: Successfully Connected to SQLite
+2022-02-22|22:39:00 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:39:00 - Successful: The SQLite connection is closed
+2022-02-22|22:39:06 - Successful: STARTING PDF CREATION
+2022-02-22|22:39:06 - Successful: Successfully Connected to SQLite
+2022-02-22|22:39:06 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:39:06 - Successful: The SQLite connection is closed
+2022-02-22|22:39:13 - Successful: STARTING PDF CREATION
+2022-02-22|22:39:13 - Successful: Successfully Connected to SQLite
+2022-02-22|22:39:13 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:39:13 - Successful: The SQLite connection is closed
+2022-02-22|22:39:51 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:39:56 - Successful: Auto Ticket email was disabled
+2022-02-22|22:39:58 - Successful: STARTING PDF CREATION
+2022-02-22|22:39:58 - Successful: Successfully Connected to SQLite
+2022-02-22|22:39:58 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:39:58 - Successful: The SQLite connection is closed
+2022-02-22|22:40:00 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:00 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:00 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:00 - Successful: The SQLite connection is closed
+2022-02-22|22:40:01 - Successful: Auto printing was disabled
+2022-02-22|22:40:04 - Successful: Server Shutting Down
+2022-02-22|22:40:04 - Successful: Current state saved - See ya
+2022-02-22|22:40:11 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:40:18 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:18 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:18 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:18 - Successful: The SQLite connection is closed
+2022-02-22|22:40:19 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:19 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:19 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:19 - Successful: The SQLite connection is closed
+2022-02-22|22:40:26 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:26 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:26 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:26 - Successful: The SQLite connection is closed
+2022-02-22|22:40:28 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:28 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:28 - Error: Failed to insert data into SQlite table near "m": syntax error
+2022-02-22|22:40:28 - Successful: The SQLite connection is closed
+2022-02-22|22:40:34 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:34 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:34 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:34 - Successful: The SQLite connection is closed
+2022-02-22|22:40:36 - Successful: STARTING PDF CREATION
+2022-02-22|22:40:36 - Successful: Successfully Connected to SQLite
+2022-02-22|22:40:36 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:40:36 - Successful: The SQLite connection is closed
+2022-02-22|22:41:53 - Successful: Server Shutting Down
+2022-02-22|22:41:53 - Successful: Current state saved - See ya
+2022-02-22|22:43:53 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:44:06 - Successful: Server Shutting Down
+2022-02-22|22:44:06 - Successful: Current state saved - See ya
+2022-02-22|22:47:19 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:47:28 - Successful: Auto printing was enabled
+2022-02-22|22:47:37 - Successful: Auto Ticket email was enabled
+2022-02-22|22:47:51 - Successful: Daily Email was enabled
+2022-02-22|22:48:11 - Successful: Server Shutting Down
+2022-02-22|22:48:11 - Successful: Current state saved - See ya
+2022-02-22|22:48:44 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:50:07 - Successful: STARTING PDF CREATION
+2022-02-22|22:50:07 - Successful: PDF CREATED.. ATTEMPTING TO PRINT
+2022-02-22|22:50:07 - Successful: Printed to HP46D23E
+2022-02-22|22:50:07 - Successful: Attempting to send email to support@macademy.org
+2022-02-22|22:50:24 - Successful: Email sent to support@macademy.org
+2022-02-22|22:50:24 - Successful: Successfully Connected to SQLite
+2022-02-22|22:50:24 - Error: Failed to insert data into SQlite table no such table: forms
+2022-02-22|22:50:24 - Successful: The SQLite connection is closed
+2022-02-22|22:51:27 - Successful: Server Shutting Down
+2022-02-22|22:51:27 - Successful: Current state saved - See ya
+2022-02-22|22:53:50 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|22:56:47 - Successful: Server Shutting Down
+2022-02-22|22:56:47 - Successful: Current state saved - See ya
+2022-02-22|23:03:38 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:03:41 - Successful: Server Shutting Down
+2022-02-22|23:03:41 - Successful: Current state saved - See ya
+2022-02-22|23:04:08 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:04:48 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:05:39 - Successful: STARTING PDF CREATION
+2022-02-22|23:05:39 - Successful: PDF CREATED.. ATTEMPTING TO PRINT
+2022-02-22|23:05:39 - Successful: Printed to HPED6EDE
+2022-02-22|23:05:39 - Successful: Attempting to send email to support@macademy.org
+2022-02-22|23:05:42 - Successful: Email sent to support@macademy.org
+2022-02-22|23:05:42 - Successful: Successfully Connected to SQLite
+2022-02-22|23:05:42 - Error: Failed to insert data into SQlite table file is not a database
+2022-02-22|23:05:42 - Successful: The SQLite connection is closed
+2022-02-22|23:06:37 - Successful: STARTING PDF CREATION
+2022-02-22|23:06:37 - Successful: PDF CREATED.. ATTEMPTING TO PRINT
+2022-02-22|23:06:37 - Successful: Printed to HP46D23E
+2022-02-22|23:06:37 - Successful: Attempting to send email to support@macademy.org
+2022-02-22|23:06:40 - Successful: Email sent to support@macademy.org
+2022-02-22|23:06:40 - Successful: Successfully Connected to SQLite
+2022-02-22|23:06:40 - Error: Failed to insert data into SQlite table file is not a database
+2022-02-22|23:06:40 - Successful: The SQLite connection is closed
+2022-02-22|23:07:37 - Successful: Server Shutting Down
+2022-02-22|23:07:37 - Successful: Current state saved - See ya
+2022-02-22|23:11:44 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:12:29 - Successful: STARTING PDF CREATION
+2022-02-22|23:12:29 - Successful: PDF CREATED.. ATTEMPTING TO PRINT
+2022-02-22|23:12:29 - Successful: Printed to HPED6EDE
+2022-02-22|23:12:29 - Successful: Attempting to send email to support@macademy.org
+2022-02-22|23:12:32 - Successful: Email sent to support@macademy.org
+2022-02-22|23:12:32 - Successful: Successfully Connected to SQLite
+2022-02-22|23:12:32 - Error: Failed to insert data into SQlite table file is not a database
+2022-02-22|23:12:32 - Successful: The SQLite connection is closed
+2022-02-22|23:15:46 - Successful: Server Shutting Down
+2022-02-22|23:15:46 - Successful: Current state saved - See ya
+2022-02-22|23:18:13 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:47:31 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:47:45 - Successful: Auto printing was disabled
+2022-02-22|23:47:51 - Successful: Auto Ticket email was disabled
+2022-02-22|23:47:56 - Successful: Server Shutting Down
+2022-02-22|23:47:56 - Successful: Current state saved - See ya
+2022-02-22|23:53:37 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-22|23:53:40 - Successful: Server Shutting Down
+2022-02-22|23:53:40 - Successful: Current state saved - See ya
+2022-02-23|00:11:35 - Successful: RTS-Server-Master-Log.txt file found
+2022-02-23|00:11:38 - Successful: Server Shutting Down
+2022-02-23|00:11:38 - Successful: Current state saved - See ya
+2022-02-23|00:25:03 - Successful: RTS-Server-Master-Log.txt file found
