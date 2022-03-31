@@ -88,51 +88,58 @@ class Master():
     #Checks Google Sheets for new cell entry
     def checkForNewEntries():
       #Grabs amount of new entries currently
-      entries = Master.Recurrence.wks.get("A2:A1000")
+      try:
+        entries = Master.Recurrence.wks.get("A2:A1000")
 
       #Compares the current check with the last check to find new entries
-      if (len(entries) > Master.Recurrence.lenEn):
+        if (len(entries) > Master.Recurrence.lenEn):
         #Updates last checked to be accurate
-        Master.Recurrence.lenEn += 1
+          Master.Recurrence.lenEn += 1
 
         #Grabs all necessary data from Google Sheets for storage
-        first = (Master.Recurrence.wks.acell("B{}".format(Master.Recurrence.lenEn+1)).value)
-        last = (Master.Recurrence.wks.acell("C{}".format(Master.Recurrence.lenEn+1)).value)
-        formDate = (Master.Recurrence.wks.acell("D{}".format(Master.Recurrence.lenEn+1)).value)
-        grade = (Master.Recurrence.wks.acell("E{}".format(Master.Recurrence.lenEn+1)).value)
-        ID = (Master.Recurrence.wks.acell("F{}".format(Master.Recurrence.lenEn+1)).value)
-        rfr = (Master.Recurrence.wks.acell("G{}".format(Master.Recurrence.lenEn+1)).value)
-        details = (Master.Recurrence.wks.acell("H{}".format(Master.Recurrence.lenEn+1)).value)
-        PW = (Master.Recurrence.wks.acell("I{}".format(Master.Recurrence.lenEn+1)).value)
+
+          first = (Master.Recurrence.wks.acell("B{}".format(Master.Recurrence.lenEn+1)).value)
+          last = (Master.Recurrence.wks.acell("C{}".format(Master.Recurrence.lenEn+1)).value)
+          formDate = (Master.Recurrence.wks.acell("D{}".format(Master.Recurrence.lenEn+1)).value)
+          grade = (Master.Recurrence.wks.acell("E{}".format(Master.Recurrence.lenEn+1)).value)
+          ID = (Master.Recurrence.wks.acell("F{}".format(Master.Recurrence.lenEn+1)).value)
+          rfr = (Master.Recurrence.wks.acell("G{}".format(Master.Recurrence.lenEn+1)).value)
+          details = (Master.Recurrence.wks.acell("H{}".format(Master.Recurrence.lenEn+1)).value)
+          PW = (Master.Recurrence.wks.acell("I{}".format(Master.Recurrence.lenEn+1)).value)
 
         #Creates and prints PDF
-        Master.Recurrence.pdfCreate(first+" "+last, formDate, grade, ID, rfr+": "+details,"h", PW)
+          Master.Recurrence.pdfCreate(first+" "+last, formDate, grade, ID, rfr+": "+details,"h", PW)
 
         #Inserts data into forms table on rtsdb.db database // UPDATE JOTFORM
-        Master.Recurrence.sqlInsert(first+" "+last, formDate, grade, PW, " ", ID, rfr, details)
+          Master.Recurrence.sqlInsert(first+" "+last, formDate, grade, PW, " ", ID, rfr, details)
+      except Exception as error:
+          Master.LogUpdate(Master.grabTime(), "Error", error)
 
       #Grabs amount of new entries currently
-      entriesEm = Master.Recurrence.wksEm.get("A2:A1000")
+      try:
+        entriesEm = Master.Recurrence.wksEm.get("A2:A1000")
 
       #Compares the current check with the last check to find new entries
-      if (len(entriesEm) > Master.Recurrence.lenEnEm):
+        if (len(entriesEm) > Master.Recurrence.lenEnEm):
         #Updates last checked to be accurate
-        Master.Recurrence.lenEnEm += 1
+          Master.Recurrence.lenEnEm += 1
 
         #Grabs all necessary data from Google Sheets for storage
-        first = (Master.Recurrence.wksEm.acell("B{}".format(Master.Recurrence.lenEnEm+1)).value)
-        last = (Master.Recurrence.wksEm.acell("C{}".format(Master.Recurrence.lenEnEm+1)).value)
-        formDate = (Master.Recurrence.wksEm.acell("D{}".format(Master.Recurrence.lenEnEm+1)).value)
-        grade = (Master.Recurrence.wksEm.acell("E{}".format(Master.Recurrence.lenEnEm+1)).value)
-        ID = (Master.Recurrence.wksEm.acell("F{}".format(Master.Recurrence.lenEnEm+1)).value)
-        rfr = (Master.Recurrence.wksEm.acell("G{}".format(Master.Recurrence.lenEnEm+1)).value)
-        details = (Master.Recurrence.wksEm.acell("H{}".format(Master.Recurrence.lenEnEm+1)).value)
+          first = (Master.Recurrence.wksEm.acell("B{}".format(Master.Recurrence.lenEnEm+1)).value)
+          last = (Master.Recurrence.wksEm.acell("C{}".format(Master.Recurrence.lenEnEm+1)).value)
+          formDate = (Master.Recurrence.wksEm.acell("D{}".format(Master.Recurrence.lenEnEm+1)).value)
+          grade = (Master.Recurrence.wksEm.acell("E{}".format(Master.Recurrence.lenEnEm+1)).value)
+          ID = (Master.Recurrence.wksEm.acell("F{}".format(Master.Recurrence.lenEnEm+1)).value)
+          rfr = (Master.Recurrence.wksEm.acell("G{}".format(Master.Recurrence.lenEnEm+1)).value)
+          details = (Master.Recurrence.wksEm.acell("H{}".format(Master.Recurrence.lenEnEm+1)).value)
 
         #Creates and prints PDF
-        Master.Recurrence.pdfCreate(first+" "+last, formDate, grade, ID, rfr+": "+details,"e", "")
+          Master.Recurrence.pdfCreate(first+" "+last, formDate, grade, ID, rfr+": "+details,"e", "")
 
         #Inserts data into forms table on rtsdb.db database // UPDATE JOTFORM
-        Master.Recurrence.sqlInsert(first+" "+last, formDate, grade, " ", " ", ID, rfr, details)
+          Master.Recurrence.sqlInsert(first+" "+last, formDate, grade, " ", " ", ID, rfr, details)
+      except Exception as error:
+          Master.LogUpdate(Master.grabTime(),"Error", error)
 
     #Sends email once a day at 07:30 cst
     def dailyEmail():
@@ -277,7 +284,7 @@ class Master():
           Master.ConsoleCommands.dailyEmail(userInput[1])
         elif(userInput[0] == "autoprint"):
           Master.ConsoleCommands.autoPrinting(userInput[1])
-        elif(userInput[0] == "shutdown"):
+        elif(userInput[0] == "shutdown" or userInput[0] == "exit" or userInput[0] == "quit"):
           Master.ConsoleCommands.shutDown()
         elif(userInput[0] == "backlog"):
           Master.ConsoleCommands.backLog()
